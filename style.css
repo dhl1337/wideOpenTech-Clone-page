@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+}
+.jumbotron {
+    background-color: transparent;
+    color: white;
+}
+.jumbotron h1 {
+    font-size: 100px;
+}
+.page1 {
+    background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.png");
+    height: 700px;
+    width: 100%;
+    padding-bottom: 300px;
+    no-repeat: center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+img {
+    padding-top: 40px;
+    max-width:230px;
+    max-height:95px;
+}
+ul {
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.icon {
+    padding-left: 300px;
+}
+nav {
+    float: right;
+    padding-top: 40px;
+    padding-right: 300px;
+}
+ul.nav > li > a:hover {
+    background-color: transparent;
+    color: greenyellow;
+}
+h1 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+}
+small p {
+    padding-left: 300px;
+    padding-top: 50px;
+}
+.services li {
+    display: inline-block;
+    width: 140px;
+    height: 120px;
+}
+.services {
+    text-align: center;
+    color: white;
+}
+.mobile {
+    background-color: #2ec2a8;
+    padding: 70px 20px;
+    display: inline-block;
+}
+.eCommerce {
+    background-color: #40666d;
+    padding: 70px 20px;
+}
+.software {
+    background-color: #878787;
+    padding: 70px 20px;
+}
+.system {
+    background-color: #45c1cc;
+    padding: 70px 20px;
+}
+.technical-team {
+    background-color: #bdd537;
+    padding: 70px 20px;
+    text-wrap: normal;
+}
+.page2 {
+    height: 400px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.pitch p {
+    text-align: center;
+    font-size: 20px;
+    margin-right: 560px;
+    margin-left: 560px;
+    padding-top: 20px;
+}
+.works p {
+    font-size: 45px;
+}
+.works strong {
+    color: #bdd537;
+}
+.page3 {
+    height: 400px;
+    background-color: white;
+}
+.col {
+    margin-right: 475px;
+    margin-left: 475px;
+    text-align: center;
+    padding-top: 100px;
+}
+.light {
+    border-right: solid black 1px;
+}
+.arrow {
+    border-right: solid black 1px;
+}
+.col a {
+    color: #bdd537;
+}
+.page4 {
+    background-color: #f0f0f0;
+    height: 720px;
+    padding-top: 30px;
+    display: flex;
+}
+.help {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.container-4 {
+    margin-right: 450px;
+    margin-left: 450px;
+}
+.num-one {
+    height: 115px;
+    width: 425px;
+    background-color: white;
+    text-align: center;
+    padding-top: 12px;
+    margin-bottom: 15px;
+    float: left;
+}
+.num-two {
+    height: 140px;
+    width: 425px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    float: right;
+}
+.num-three {
+    height: 160px;
+    width: 425px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    float: left;
+}
+.num-four {
+    height: 160px;
+    width: 425px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    float: right;
+}
+.num-five {
+    height: 160px;
+    width: 425px;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    float: left;
+}
+.page5 {
+    height: 150px;
+    background-color: white;
+}
+.contact {
+    text-align: center;
+}
+.contact h3 {
+    margin-left: 750px;
+    margin-right: 750px;
+}
+.page6 {
+    text-align: center;
+    background-color: #bdd537;
+    height: 400px;
+}
+.page6 h3 {
+    padding-top: 30px;
+    color: white;
+}
+.page7 {
+    height: 600px;
+}
+.left-side {
+    background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/wilmington.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    float: left;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.right-side {
+    background-image: url("http://wideopentech.com/themes/wot-2013-gm/_/img/asheville.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-top: 200px;
+    padding-left: 200px;
+}
+.left-box {
+    height: 170px;
+    width: 600px;
+    background-color: #132023;
+    padding-top: 5px;
+    padding-left: 75px;
+    opacity: .9;
+    border-radius: 5px;
+}
+.left-address {
+    padding-right: 100px;
+}
+.left-address h3 {
+    color:#bdd537
+}
+.left-address p {
+    color: white;
+}
+.left-address p:nth-child(3) {
+    color: #bdd537;
+}
+.right-box {
+    height: 170px;
+    width: 600px;
+    background-color: #132023;
+    padding-top: 5px;
+    padding-left: 75px;
+    opacity: .8;
+    border-radius: 5px;
+}
+.right-address h3 {
+    color:#bdd537
+}
+.right-address p {
+    color: white;
+}
+.right-address p:nth-child(3) {
+    color: #bdd537;
+}
+.page8{
+    height: 400px;
+    background-color: #4d787c;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+.input-group {
+    padding-left: 600px;
+    padding-right: 600px;
+    text-align: center;
+
+}
+.btn {
+    background-color: #bdd537;
+    color: white;
+}
+footer {
+    background-color: #41666c;
+
+}
+.footer-container {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.footer-nav li{
+    display: inline;
+}
+.copyright {
+    color: white;
+}
